@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>rug.fun</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background: linear-gradient(to bottom, #141414, #0e0e0e);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    .buttons {
+      margin: 30px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #00ff99;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cc77;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .token-info {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding: 20px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .btn {
+        width: 80%;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>rug.fun</h1>
+    <p>The future of decentralized currency backed by pure memes.</p>
+
+    <div class="buttons">
+      <a href="https://example.com/buy" class="btn">Buy Now</a>
+      <a href="https://example.com/chart" class="btn">View Chart</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Token Details</h2>
+    <div class="token-info">
+      <p><strong>Symbol:</strong> $RUG.FUN</p>
+      <p><strong>Contract:</strong> 0x1234567890ABCDEF...</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Join the Community</h2>
+    <div class="buttons">
+      <a href="https://twitter.com/yourproject" class="btn">Twitter</a>
+      <a href="https://t.me/yourproject" class="btn">Telegram</a>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Rug.Fun . All rights reserved.
+  </div>
+
+</body>
+</html>
